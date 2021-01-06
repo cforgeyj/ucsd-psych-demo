@@ -1,0 +1,28 @@
+{
+  "name": "IntroHCI",
+  "version": "0.0.1",
+  "author": "Intro HCI Staff",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IntroHCI/lab4"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "express3-handlebars": "*",
+    "firebase": "^5.5.0",
+    "firebase-tools": "^6.3.0",
+    "googleapis": "^27.0.0",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.16",
+    "nodemon": "^1.18.4"
+  },
+  "engines": {
+    "node": "8.9.x"
+  }
+}
